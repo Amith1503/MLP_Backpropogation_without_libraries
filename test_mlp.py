@@ -2,9 +2,6 @@ import numpy as np
 import pandas as pd 
 import pickle as pkl
 
-STUDENT_NAME = 'AMITH NANDAKUMAR'
-STUDENT_ID = '20859891'
-
 def test_mlp(data_file):
 
 	test_data=pd.read_csv(data_file);
